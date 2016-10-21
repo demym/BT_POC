@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\$user\\projects\\nativescript\\nativescript-bluetooth-demo\\Bluetooth\\platforms\\android\\build\\intermediates\\res\\merged\\nativescript-bluetooth\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\$user\\projects\\nativescript\\nativescript-bluetooth-demo\\Bluetooth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "C:\\$user\\projects\\nativescript\\nativescript-bluetooth-demo\\Bluetooth\\platforms\\android\\build\\intermediates\\res\\merged\\nativescript-bluetooth\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\$user\\projects\\nativescript\\nativescript-bluetooth-demo\\Bluetooth\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\$user\android_sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="C:\$user\projects\nativescript\nativescript-bluetooth-demo\Bluetooth\platforms\android\build\intermediates\pre-dexed\nativescript-bluetooth\debug\support-annotations-23.2.1_8113efe01f1a0d642a1fa7cf616365514842069d.jar" />
+    </item>
+    <item
+        jar="C:\$user\projects\nativescript\nativescript-bluetooth-demo\Bluetooth\platforms\android\libs\nativescript.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="72b585c3baffa7cb9fbecc8dd37cd89a127f17f5">
+        <dex dex="C:\$user\projects\nativescript\nativescript-bluetooth-demo\Bluetooth\platforms\android\build\intermediates\pre-dexed\nativescript-bluetooth\debug\nativescript_caa86db246a3004ed12395e533e4dabfdfd916a6.jar" />
+    </item>
+
+</items>

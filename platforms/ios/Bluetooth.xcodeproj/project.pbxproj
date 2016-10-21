@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
+		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
+		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
+		053624E0DE9A4023B1F3704F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C475CD90B84A4CF49FF38092 /* Default-568h@2x.png */; };
+		77D83FAEE0754844ADD5754E /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E21EEFF16CB84E888356D9D6 /* Default-667h@2x.png */; };
+		96A328EE528B440E89FEBB55 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2A26D0AB7349EEBF94FE74 /* Default-736h@3x.png */; };
+		9AB3C91FCEAF400A9FED9FCD /* Default-Landscape-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBD15B9487BD4FA081DE3435 /* Default-Landscape-568h@2x.png */; };
+		65EC7EBD07E64A17BD974CD3 /* Default-Landscape-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3C91715B9D4E72B9552A91 /* Default-Landscape-667h@2x.png */; };
+		B3365412243C4E22B941EB37 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 39032DE402DD423EBF24E8D2 /* Default-Landscape.png */; };
+		30AF993AAB7E493D80EDB7A2 /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EE9C48366F840F4A8AA7BE0 /* Default-Landscape@2x.png */; };
+		642156402921449999DED048 /* Default-Landscape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31E089FAC64A40EDA02005FC /* Default-Landscape@3x.png */; };
+		CF1EADCEC6414D4EA7B30A95 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB67261E33B403B81684699 /* Default-Portrait.png */; };
+		C1E68A1CD5A34570A7F5F94E /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA81606DE2194C70A6C7BE23 /* Default-Portrait@2x.png */; };
+		2A1AA7B3178B4D9FAEEC5419 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC8AA726E4B4D208558AF00 /* Default.png */; };
+		E034D50BACF04CE3A3289E1A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E39A2B63E96144D9B3632FE6 /* Default@2x.png */; };
+		DDF3C8D06C9A44CA9DDC67B6 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 05FBFB7CA6264761982740CA /* Icon-Small-50.png */; };
+		934659852F2943AC80BE041B /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 478F1C5E1B254122B3830EBE /* Icon-Small-50@2x.png */; };
+		74BF3C73CA444EACB4D2DC72 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4AA61431C045928AC6559A /* Icon-Small.png */; };
+		58DAB9911A564902B7E86551 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 179E2C545E114B8B8F39EEB7 /* Icon-Small@2x.png */; };
+		8AA8FFAB65E34CDFA932E632 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1460282797224BA2879752A5 /* LaunchScreen.xib */; };
+		0DA7840D68584689B165202A /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0027E703144892B3E5F58F /* icon-40.png */; };
+		6970A523745D4F9C97C9367A /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37619205D1A84E458CFF33D5 /* icon-40@2x.png */; };
+		7901CA58A0744F7C83296FD3 /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = FE91986450B64079A96CA5CE /* icon-60.png */; };
+		CDA58BC133D54060AC9ADA87 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6AEB1F36A1414398B4361B /* icon-60@2x.png */; };
+		7A5348F3AE90415980FFF6B0 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F789AAE28DB48E48B197FEA /* icon-72.png */; };
+		DE88619C7A834F1F8BF2677B /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0F8E209E3364BCB9B6133A4 /* icon-72@2x.png */; };
+		AF2998EB5FD4423F99A06AA5 /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = A0854F54849F4CE184C0DA36 /* icon-76.png */; };
+		7B174CB248744998B61C39F3 /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FD293CB07042A4AC6D5FBC /* icon-76@2x.png */; };
+		5B57E71BA80C435F82F8E3B5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BE0AED5CFD0466786E71514 /* icon.png */; };
+		4FF2FCDC14CE409680C792E0 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE61139D0F034A14B648E5D6 /* icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85F5BDFC1A9363BE006B9701 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		858B832E18CA111C00AB12DE /* Bluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		858B833918CA111C00AB12DE /* Bluetooth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bluetooth-Info.plist"; sourceTree = "<group>"; };
+		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		858B833F18CA111C00AB12DE /* Bluetooth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bluetooth-Prefix.pch"; sourceTree = "<group>"; };
+		858B843318CA22B800AB12DE /* Bluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
+		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
+		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
+		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
+		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		C475CD90B84A4CF49FF38092 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Bluetooth/Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		E21EEFF16CB84E888356D9D6 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-667h@2x.png"; path = "Bluetooth/Resources/Default-667h@2x.png"; sourceTree = "<group>"; };
+		3C2A26D0AB7349EEBF94FE74 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-736h@3x.png"; path = "Bluetooth/Resources/Default-736h@3x.png"; sourceTree = "<group>"; };
+		BBD15B9487BD4FA081DE3435 /* Default-Landscape-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape-568h@2x.png"; path = "Bluetooth/Resources/Default-Landscape-568h@2x.png"; sourceTree = "<group>"; };
+		BA3C91715B9D4E72B9552A91 /* Default-Landscape-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape-667h@2x.png"; path = "Bluetooth/Resources/Default-Landscape-667h@2x.png"; sourceTree = "<group>"; };
+		39032DE402DD423EBF24E8D2 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape.png"; path = "Bluetooth/Resources/Default-Landscape.png"; sourceTree = "<group>"; };
+		4EE9C48366F840F4A8AA7BE0 /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x.png"; path = "Bluetooth/Resources/Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		31E089FAC64A40EDA02005FC /* Default-Landscape@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@3x.png"; path = "Bluetooth/Resources/Default-Landscape@3x.png"; sourceTree = "<group>"; };
+		FEB67261E33B403B81684699 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait.png"; path = "Bluetooth/Resources/Default-Portrait.png"; sourceTree = "<group>"; };
+		DA81606DE2194C70A6C7BE23 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x.png"; path = "Bluetooth/Resources/Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		2AC8AA726E4B4D208558AF00 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "Bluetooth/Resources/Default.png"; sourceTree = "<group>"; };
+		E39A2B63E96144D9B3632FE6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Bluetooth/Resources/Default@2x.png"; sourceTree = "<group>"; };
+		05FBFB7CA6264761982740CA /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Bluetooth/Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
+		478F1C5E1B254122B3830EBE /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "Bluetooth/Resources/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		ED4AA61431C045928AC6559A /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Bluetooth/Resources/Icon-Small.png"; sourceTree = "<group>"; };
+		179E2C545E114B8B8F39EEB7 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Bluetooth/Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		1460282797224BA2879752A5 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = "Bluetooth/Resources/LaunchScreen.xib"; sourceTree = "<group>"; fileEncoding = 4; };
+		AF0027E703144892B3E5F58F /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40.png"; path = "Bluetooth/Resources/icon-40.png"; sourceTree = "<group>"; };
+		37619205D1A84E458CFF33D5 /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40@2x.png"; path = "Bluetooth/Resources/icon-40@2x.png"; sourceTree = "<group>"; };
+		FE91986450B64079A96CA5CE /* icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60.png"; path = "Bluetooth/Resources/icon-60.png"; sourceTree = "<group>"; };
+		BC6AEB1F36A1414398B4361B /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60@2x.png"; path = "Bluetooth/Resources/icon-60@2x.png"; sourceTree = "<group>"; };
+		2F789AAE28DB48E48B197FEA /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "Bluetooth/Resources/icon-72.png"; sourceTree = "<group>"; };
+		B0F8E209E3364BCB9B6133A4 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72@2x.png"; path = "Bluetooth/Resources/icon-72@2x.png"; sourceTree = "<group>"; };
+		A0854F54849F4CE184C0DA36 /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76.png"; path = "Bluetooth/Resources/icon-76.png"; sourceTree = "<group>"; };
+		00FD293CB07042A4AC6D5FBC /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76@2x.png"; path = "Bluetooth/Resources/icon-76@2x.png"; sourceTree = "<group>"; };
+		2BE0AED5CFD0466786E71514 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "Bluetooth/Resources/icon.png"; sourceTree = "<group>"; };
+		EE61139D0F034A14B648E5D6 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Bluetooth/Resources/icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		858B83F418CA22B800AB12DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		858B832518CA111C00AB12DE = {
+			isa = PBXGroup;
+			children = (
+				E070579D1B39A9D000214BF1 /* Resources */,
+				858B833718CA111C00AB12DE /* Bluetooth */,
+				858B833018CA111C00AB12DE /* Frameworks */,
+				858B832F18CA111C00AB12DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		858B832F18CA111C00AB12DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				858B832E18CA111C00AB12DE /* Bluetooth.app */,
+				858B843318CA22B800AB12DE /* Bluetooth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		858B833018CA111C00AB12DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		858B833718CA111C00AB12DE /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				CD45EE7A18DC2D5800FB50C0 /* app */,
+				858B833818CA111C00AB12DE /* Supporting Files */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		858B833818CA111C00AB12DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4743E1BA4855C0087EA85 /* build.xcconfig */,
+				CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */,
+				CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */,
+				858B833918CA111C00AB12DE /* Bluetooth-Info.plist */,
+				858B833A18CA111C00AB12DE /* InfoPlist.strings */,
+				CD62955C1BB2678900AE3A93 /* main.m */,
+				858B833F18CA111C00AB12DE /* Bluetooth-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E070579D1B39A9D000214BF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C475CD90B84A4CF49FF38092 /* Default-568h@2x.png */,
+				E21EEFF16CB84E888356D9D6 /* Default-667h@2x.png */,
+				3C2A26D0AB7349EEBF94FE74 /* Default-736h@3x.png */,
+				BBD15B9487BD4FA081DE3435 /* Default-Landscape-568h@2x.png */,
+				BA3C91715B9D4E72B9552A91 /* Default-Landscape-667h@2x.png */,
+				39032DE402DD423EBF24E8D2 /* Default-Landscape.png */,
+				4EE9C48366F840F4A8AA7BE0 /* Default-Landscape@2x.png */,
+				31E089FAC64A40EDA02005FC /* Default-Landscape@3x.png */,
+				FEB67261E33B403B81684699 /* Default-Portrait.png */,
+				DA81606DE2194C70A6C7BE23 /* Default-Portrait@2x.png */,
+				2AC8AA726E4B4D208558AF00 /* Default.png */,
+				E39A2B63E96144D9B3632FE6 /* Default@2x.png */,
+				05FBFB7CA6264761982740CA /* Icon-Small-50.png */,
+				478F1C5E1B254122B3830EBE /* Icon-Small-50@2x.png */,
+				ED4AA61431C045928AC6559A /* Icon-Small.png */,
+				179E2C545E114B8B8F39EEB7 /* Icon-Small@2x.png */,
+				1460282797224BA2879752A5 /* LaunchScreen.xib */,
+				AF0027E703144892B3E5F58F /* icon-40.png */,
+				37619205D1A84E458CFF33D5 /* icon-40@2x.png */,
+				FE91986450B64079A96CA5CE /* icon-60.png */,
+				BC6AEB1F36A1414398B4361B /* icon-60@2x.png */,
+				2F789AAE28DB48E48B197FEA /* icon-72.png */,
+				B0F8E209E3364BCB9B6133A4 /* icon-72@2x.png */,
+				A0854F54849F4CE184C0DA36 /* icon-76.png */,
+				00FD293CB07042A4AC6D5FBC /* icon-76@2x.png */,
+				2BE0AED5CFD0466786E71514 /* icon.png */,
+				EE61139D0F034A14B648E5D6 /* icon@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		858B83EF18CA22B800AB12DE /* Bluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "Bluetooth" */;
+			buildPhases = (
+				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
+				858B83F218CA22B800AB12DE /* Sources */,
+				CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */,
+				858B83F418CA22B800AB12DE /* Frameworks */,
+				858B842C18CA22B800AB12DE /* Resources */,
+				85F5BDFC1A9363BE006B9701 /* Embed Frameworks */,
+				CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bluetooth;
+			productName = JDBridgeApp;
+			productReference = 858B843318CA22B800AB12DE /* Bluetooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		858B832618CA111C00AB12DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TNS;
+				LastUpgradeCheck = 500;
+				ORGANIZATIONNAME = Telerik;
+			};
+			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "Bluetooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 858B832518CA111C00AB12DE;
+			productRefGroup = 858B832F18CA111C00AB12DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				858B83EF18CA22B800AB12DE /* Bluetooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		858B842C18CA22B800AB12DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
+				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
+				053624E0DE9A4023B1F3704F /* Default-568h@2x.png in Resources */,
+				77D83FAEE0754844ADD5754E /* Default-667h@2x.png in Resources */,
+				96A328EE528B440E89FEBB55 /* Default-736h@3x.png in Resources */,
+				9AB3C91FCEAF400A9FED9FCD /* Default-Landscape-568h@2x.png in Resources */,
+				65EC7EBD07E64A17BD974CD3 /* Default-Landscape-667h@2x.png in Resources */,
+				B3365412243C4E22B941EB37 /* Default-Landscape.png in Resources */,
+				30AF993AAB7E493D80EDB7A2 /* Default-Landscape@2x.png in Resources */,
+				642156402921449999DED048 /* Default-Landscape@3x.png in Resources */,
+				CF1EADCEC6414D4EA7B30A95 /* Default-Portrait.png in Resources */,
+				C1E68A1CD5A34570A7F5F94E /* Default-Portrait@2x.png in Resources */,
+				2A1AA7B3178B4D9FAEEC5419 /* Default.png in Resources */,
+				E034D50BACF04CE3A3289E1A /* Default@2x.png in Resources */,
+				DDF3C8D06C9A44CA9DDC67B6 /* Icon-Small-50.png in Resources */,
+				934659852F2943AC80BE041B /* Icon-Small-50@2x.png in Resources */,
+				74BF3C73CA444EACB4D2DC72 /* Icon-Small.png in Resources */,
+				58DAB9911A564902B7E86551 /* Icon-Small@2x.png in Resources */,
+				8AA8FFAB65E34CDFA932E632 /* LaunchScreen.xib in Resources */,
+				0DA7840D68584689B165202A /* icon-40.png in Resources */,
+				6970A523745D4F9C97C9367A /* icon-40@2x.png in Resources */,
+				7901CA58A0744F7C83296FD3 /* icon-60.png in Resources */,
+				CDA58BC133D54060AC9ADA87 /* icon-60@2x.png in Resources */,
+				7A5348F3AE90415980FFF6B0 /* icon-72.png in Resources */,
+				DE88619C7A834F1F8BF2677B /* icon-72@2x.png in Resources */,
+				AF2998EB5FD4423F99A06AA5 /* icon-76.png in Resources */,
+				7B174CB248744998B61C39F3 /* icon-76@2x.png in Resources */,
+				5B57E71BA80C435F82F8E3B5 /* icon.png in Resources */,
+				4FF2FCDC14CE409680C792E0 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PreBuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-pre-build\"";
+			showEnvVarsInLog = 0;
+		};
+		CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PostBuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-post-build\"";
+			showEnvVarsInLog = 0;
+		};
+		CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PreLink";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-pre-link\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		858B83F218CA22B800AB12DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD62955D1BB2678900AE3A93 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		858B833A18CA111C00AB12DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				858B833B18CA111C00AB12DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		858B835818CA111C00AB12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		858B835918CA111C00AB12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+		858B843118CA22B800AB12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_MODULES_AUTOLINK = NO;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bluetooth/Bluetooth-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Bluetooth/Bluetooth-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Bluetooth;
+				VALID_ARCHS = "armv7 arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		858B843218CA22B800AB12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_MODULES_AUTOLINK = NO;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bluetooth/Bluetooth-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Bluetooth/Bluetooth-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Bluetooth;
+				VALID_ARCHS = "armv7 arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		858B832918CA111C00AB12DE /* Build configuration list for PBXProject "Bluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858B835818CA111C00AB12DE /* Debug */,
+				858B835918CA111C00AB12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "Bluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858B843118CA22B800AB12DE /* Debug */,
+				858B843218CA22B800AB12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 858B832618CA111C00AB12DE /* Project object */;
+}
